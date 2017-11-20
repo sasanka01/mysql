@@ -20,8 +20,8 @@ ORDER BY population DESC;
 SELECT countries.name, languages.language,languages.percentage
 FROM countries
 JOIN languages ON countries.id = languages.country_id
-WHERE percentage > 89
-ORDER BY percentage DESC;
+WHERE languages.percentage > 89
+ORDER BY languages.percentage DESC;
 
 SELECT name, surface_area, population
 FROM countries
