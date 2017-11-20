@@ -1,0 +1,5 @@
+use twitter;
+
+SELECT *
+FROM users
+WHERE last_name LIKE "I%"
